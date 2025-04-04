@@ -1,0 +1,148 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john.smith@example.com",
+      "phone": "+1-555-111-2222",
+      "position": "Software Engineer",
+      "department": "IT",
+      "hireDate": "2022-03-15",
+      "salary": 70000,
+      "address": "New York, USA"
+    },
+    {
+      "id": "2",
+      "firstName": "Emily",
+      "lastName": "Johnson",
+      "email": "emily.johnson@example.com",
+      "phone": "+1-555-222-3333",
+      "position": "Product Manager",
+      "department": "Product",
+      "hireDate": "2021-06-10",
+      "salary": 85000,
+      "address": "San Francisco, USA"
+    },
+    {
+      "id": "3",
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "email": "michael.brown@example.com",
+      "phone": "+1-555-333-4444",
+      "position": "Data Analyst",
+      "department": "Analytics",
+      "hireDate": "2020-11-01",
+      "salary": 65000,
+      "address": "Chicago, USA"
+    },
+    {
+      "id": "4",
+      "firstName": "Olivia",
+      "lastName": "Davis",
+      "email": "olivia.davis@example.com",
+      "phone": "+1-555-444-5555",
+      "position": "UX Designer",
+      "department": "Design",
+      "hireDate": "2023-02-01",
+      "salary": 60000,
+      "address": "Los Angeles, USA"
+    },
+    {
+      "id": "5",
+      "firstName": "William",
+      "lastName": "Wilson",
+      "email": "william.wilson@example.com",
+      "phone": "+1-555-555-6666",
+      "position": "DevOps Engineer",
+      "department": "IT",
+      "hireDate": "2019-08-20",
+      "salary": 90000,
+      "address": "Seattle, USA"
+    },
+    {
+      "id": "6",
+      "firstName": "Sophia",
+      "lastName": "Martinez",
+      "email": "sophia.martinez@example.com",
+      "phone": "+1-555-666-7777",
+      "position": "HR Manager",
+      "department": "HR",
+      "hireDate": "2022-05-05",
+      "salary": 75000,
+      "address": "Miami, USA"
+    },
+    {
+      "id": "7",
+      "firstName": "James",
+      "lastName": "Anderson",
+      "email": "james.anderson@example.com",
+      "phone": "+1-555-777-8888",
+      "position": "Marketing Specialist",
+      "department": "Marketing",
+      "hireDate": "2021-01-12",
+      "salary": 55000,
+      "address": "Boston, USA"
+    },
+    {
+      "id": "8",
+      "firstName": "Isabella",
+      "lastName": "Thomas",
+      "email": "isabella.thomas@example.com",
+      "phone": "+1-555-888-9999",
+      "position": "Finance Analyst",
+      "department": "Finance",
+      "hireDate": "2020-10-30",
+      "salary": 68000,
+      "address": "Dallas, USA"
+    },
+    {
+      "id": "9",
+      "firstName": "Benjamin",
+      "lastName": "Lee",
+      "email": "benjamin.lee@example.com",
+      "phone": "+1-555-999-0000",
+      "position": "QA Engineer",
+      "department": "IT",
+      "hireDate": "2023-04-15",
+      "salary": 58000,
+      "address": "Austin, USA"
+    },
+    {
+      "id": "10",
+      "firstName": "Charlotte",
+      "lastName": "Harris",
+      "email": "charlotte.harris@example.com",
+      "phone": "+1-555-010-1010",
+      "position": "Customer Support",
+      "department": "Support",
+      "hireDate": "2021-07-22",
+      "salary": 50000,
+      "address": "Denver, USA"
+    },
+    {
+      "id": "11",
+      "firstName": "Daniel",
+      "lastName": "Clark",
+      "email": "daniel.clark@example.com",
+      "phone": "+1-555-121-2121",
+      "position": "Business Analyst",
+      "department": "Business",
+      "hireDate": "2019-12-05",
+      "salary": 72000,
+      "address": "Atlanta, USA"
+    },
+    {
+      "id": "12",
+      "firstName": "Mia",
+      "lastName": "Lewis",
+      "email": "mia.lewis@example.com",
+      "phone": "+1-555-232-3232",
+      "position": "Operations Manager",
+      "department": "Operations",
+      "hireDate": "2022-09-15",
+      "salary": 80000,
+      "address": "San Diego, USA"
+    }
+  ]
+}
