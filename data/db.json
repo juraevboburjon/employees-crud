@@ -143,6 +143,18 @@
       "hireDate": "2022-09-15",
       "salary": 80000,
       "address": "San Diego, USA"
+    },
+    {
+      "id": "344f",
+      "firstName": "boburjon",
+      "lastName": "juraev",
+      "email": "frreded@gmail.com",
+      "phone": "843634876",
+      "position": "frontend",
+      "department": "demo",
+      "address": "dhsvcdhscv",
+      "salary": "900000",
+      "hireDate": "2025-03-29T15:00:00.000Z"
     }
   ]
 }

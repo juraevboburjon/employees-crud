@@ -1,7 +1,9 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
-import { Table } from "antd";
+import { Button, Table } from "antd";
+import EmployeesInfoModal from "../components/EmployeesInfoModal";
+import { Link } from "react-router-dom";
 
 const columns = [
   {
@@ -19,6 +21,10 @@ const columns = [
   {
     title: "Hire Date",
     dataIndex: "hireDate",
+  },
+  {
+    title: "Full Info",
+    dataIndex: "info",
   },
 
   //   {
@@ -38,6 +44,8 @@ const columns = [
 function HomePage() {
   const host = import.meta.env.VITE_HOST;
   const [employees, setEmployees] = useState([]);
+  const [employeesInfoModal, setEmployeesInfoModal] = useState(false);
+  const [selectedEMployeeId, setSelectedEMployeeId] = useState(null);
 
   useEffect(() => {
     axios
@@ -46,21 +54,38 @@ function HomePage() {
       .catch((err) => console.log(err));
   }, [host]);
 
+  const toggleModal = (id) => {
+    setSelectedEMployeeId(id);
+    setEmployeesInfoModal((prevState) => !prevState);
+  };
+
   const data = employees.map((employee) => ({
     key: employee.id,
     name: employee.firstName + employee.lastName,
     position: employee.position,
     email: employee.email,
     hireDate: employee.hireDate,
+    info: <Button onClick={() => toggleModal(employee.id)}>View Info</Button>,
   }));
 
   return (
-    <Table
-      key={data.key}
-      columns={columns}
-      dataSource={data}
-      //   onChange={onChange}
-    />
+    <>
+      {employeesInfoModal && (
+        <EmployeesInfoModal
+          employeeId={selectedEMployeeId}
+          toggleModal={() => setEmployeesInfoModal(false)}
+        />
+      )}
+      <Table
+        key={data.key}
+        columns={columns}
+        dataSource={data}
+        pagination={false}
+        style={{ height: "80vh", overflow: "scroll" }}
+
+        //   onChange={onChange}
+      />
+    </>
   );
 }
 
